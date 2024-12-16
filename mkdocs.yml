@@ -1,0 +1,27 @@
+site_name: IntelliSails
+site_url: https://intellisails.com
+
+# Repository
+repo_name: intellisails/wiki
+repo_url: https://github.com/intellisails
+
+# Copyright
+copyright: Copyright &copy; 2023 - 2024 intellisails.com
+
+theme:
+  name: material
+  palette:
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      primary: black
+      accent: indigo
+      toggle:
+        icon: material/brightness-7
+        name: Switch to system preference
+
+    # Palette toggle for dark mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-4
+        name: Switch to light mode
