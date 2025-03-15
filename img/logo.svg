@@ -1,0 +1,37 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400">
+  <!-- 透明背景 -->
+  
+  <!-- 电波/信号波纹 - 黄色调 -->
+  <path d="M200 320 C 280 320, 320 280, 320 200 C 320 120, 280 80, 200 80" fill="none" stroke="#FFD700" stroke-width="8" stroke-linecap="round" stroke-opacity="0.6"/>
+  <path d="M200 290 C 265 290, 290 265, 290 200 C 290 135, 265 110, 200 110" fill="none" stroke="#FFD700" stroke-width="6" stroke-linecap="round" stroke-opacity="0.8"/>
+  <path d="M200 260 C 250 260, 260 250, 260 200 C 260 150, 250 140, 200 140" fill="none" stroke="#FFC107" stroke-width="4" stroke-linecap="round"/>
+  
+  <!-- 土拨鼠身体 - 主体黄褐色 -->
+  <ellipse cx="170" cy="220" rx="75" ry="70" fill="#D4A017"/>
+  
+  <!-- 土拨鼠头部 -->
+  <circle cx="130" cy="170" r="45" fill="#E8B923"/>
+  
+  <!-- 土拨鼠耳朵 -->
+  <ellipse cx="110" cy="135" rx="15" ry="18" fill="#D4A017"/>
+  <ellipse cx="150" cy="135" rx="15" ry="18" fill="#D4A017"/>
+  
+  <!-- 土拨鼠眼睛 -->
+  <circle cx="120" cy="160" r="6" fill="#333333"/>
+  <circle cx="140" cy="160" r="6" fill="#333333"/>
+  
+  <!-- 土拨鼠鼻子 -->
+  <ellipse cx="130" cy="175" rx="8" ry="5" fill="#333333"/>
+  
+  <!-- 土拨鼠牙齿 -->
+  <rect x="126" y="180" width="8" height="6" fill="#FFFFFF"/>
+  
+  <!-- 摄像机镜头 -->
+  <circle cx="200" cy="200" r="30" fill="#333333"/>
+  <circle cx="200" cy="200" r="25" fill="#222222"/>
+  <circle cx="200" cy="200" r="20" fill="#111111"/>
+  <circle cx="190" cy="190" r="5" fill="#FFFFFF" fill-opacity="0.5"/>
+  
+  <!-- PulseView文字 -->
+  <text x="200" y="360" font-family="Arial, sans-serif" font-size="30" font-weight="bold" text-anchor="middle" fill="#FFC107">PulseView</text>
+</svg>
