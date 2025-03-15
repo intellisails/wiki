@@ -1,15 +1,15 @@
-site_name: Intellisails
+site_name: PulseView - Intellisails
 site_url: https://intellisails.com
 
-# Repository
 repo_name: intellisails/wiki
 repo_url: https://github.com/intellisails
 
-# Copyright
 copyright: Copyright &copy; 2023 - 2024 intellisails.com
 
 theme:
   name: material
+  logo: img/logo.png
+  favicon: img/logo.png
   features:
     - navigation.tabs
   palette:
@@ -40,50 +40,35 @@ markdown_extensions:
   - pymdownx.blocks.caption
 
 nav:
-- Argus-1:
+- PulseView:
   - Introduction: 'index.md'
-  - Kit Assembly: 'helios64/kit.md'
-  - Download: '/download/#helios64'
+  - Kit Assembly: 'kit.md'
+  - Download: 'download.md'
   - Install:
-    - Preliminary : 'helios64/install/preliminary.md'
-    - eMMC Install : 'helios64/install/emmc.md'
-    - SDcard Install : 'helios64/install/sdcard.md'
-    - First Start : 'helios64/install/first-start.md'
-    - Transfer Installed OS: 'helios64/install/transfer.md'
+    - Preliminary : 'preliminary.md'
+    - Lens installation : 'lens-installation.md'
+    - First Start : 'first-start.md'
   - Recovery :
-    - Recovery Mode: '/helios64/button/#recovery-button'
-    - Maskrom Mode: 'helios64/maskrom.md'
+    - Recovery Mode: 'recovery-button.md'
+    - Maskrom Mode: 'maskrom.md'
   - Software:
-    - ZFS:
-      - Install ZFS: 'helios64/software/zfs/install-zfs.md'
-      - Docker with ZFS: 'helios64/software/zfs/docker-zfs.md'
-      - LXD with ZFS: 'helios64/software/zfs/lxd-zfs.md'
-      - Build ZFS: 'helios64/software/zfs/build-zfs.md'
+    - Cloudflare Calls: 'cloudflare-calls.md'
+    - Tailscale: 'tailscale.md'
   - Hardware:
-    - Overview: 'helios64/hardware.md'
-    - Button: 'helios64/button.md'
-    - Ethernet: 'helios64/ethernet.md'
-    - Front Panel: 'helios64/front-panel.md'
-    - GPIO: 'helios64/gpio.md'
-    - I2C: 'helios64/i2c.md'
-    - Jumper: 'helios64/jumper.md'
-    - LED: 'helios64/led.md'
-    - M.2: 'helios64/m2.md'
-    - Power Management:
-      - PMIC: 'helios64/pmic.md'
-      - Auto Power-On: 'helios64/auto_poweron.md'
-      - UPS Battery: 'helios64/ups.md'
-    - PWM Fan: 'helios64/pwm.md'
-    - RTC: 'helios64/rtc.md'
-    - SATA: 'helios64/sata.md'
-    - SPI: 'helios64/spi.md'
-    - UEXT: 'helios64/uext.md'
-    - USB: 'helios64/usb.md'
-  - Documents: 'helios64/docs.md'
-  - Troubleshooting: 'helios64/troubleshoot.md'
+    - Overview: 'hardware.md'
+    - Button: 'button.md'
+    - Ethernet: 'ethernet.md'
+    - USB: 'usb.md'
+    - MIPI: 'mipi.md'
+    - Iris: 'iris.md'
+    - IR-CUT: 'ir-cut.md'
+    - IR-LED: 'ir-led.md'
+    - Audio: 'audio.md'
+    - GPIO: 'gpio.md'
+  - Troubleshooting: 'troubleshoot.md'
 - Reddit:
-  - Documents: 'helios64/docs.md'
+  - Social media: 'social.md'
 - Discord:
-  - Documents: 'helios64/docs.md'
+  - Social media: 'social.md'
 - Github:
-  - Documents: 'helios64/docs.md'
+  - Social media: 'social.md'
